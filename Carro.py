@@ -7,7 +7,7 @@ if pergunta.startswith('s'):
 
     aproveitamento = float(input('{}, quantos quilometros seu carro faz por litro? \n'.format(nome)))
 
-    precogas = int(input('{}, qual é o preço da gasolina atualmente?\n'.format(nome)))
+    precogas = float(input('{}, qual é o preço da gasolina atualmente?\n'.format(nome)))
 
     consumo = distancia / aproveitamento
 
